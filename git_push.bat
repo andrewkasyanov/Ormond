@@ -1,11 +1,11 @@
-﻿@echo off
+@echo off
 setlocal enabledelayedexpansion
 
 rem Устанавливаем кодировку UTF-8
 chcp 65001 > nul
 
 rem Укажите путь к вашему репозиторию
-set REPO_PATH="C:\Users\kasya\Desktop\Aftermarket\Ormond"
+set REPO_PATH="C:\Users\User3\Desktop\Afterparts\Ormond"
 cd /d %REPO_PATH%
 
 rem Проверяем, является ли текущая директория Git-репозиторием
