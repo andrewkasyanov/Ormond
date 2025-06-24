@@ -7,81 +7,11 @@
     
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css?v=<?php echo filemtime($_SERVER['DOCUMENT_ROOT'] . '/css/style.css'); ?>" />
     
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <style>
-        :root {
-            --primary-color: #FF4040;
-            --dark-bg: #1a1a1a;
-            --light-bg: #f8f9fa;
-        }
-        
-        body {
-            font-family: 'Roboto', sans-serif;
-            padding-top: 80px;
-        }
-        
-        .navbar {
-            background-color: var(--dark-bg) !important;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        
-        .btn-primary {
-            background-color: var(--primary-color);
-            border-color: var(--primary-color);
-        }
-        
-        .btn-primary:hover {
-            background-color: #e03535;
-            border-color: #e03535;
-        }
-        
-        .section-title {
-            position: relative;
-            padding-bottom: 15px;
-            margin-bottom: 30px;
-        }
-        
-        .section-title:after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 60px;
-            height: 3px;
-            background: var(--primary-color);
-        }
-        
-        .product-card {
-            transition: transform 0.3s;
-            border: 1px solid #eee;
-        }
-        
-        .product-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-        }
-        
-        .modal-header {
-            background-color: var(--dark-bg);
-            color: white;
-        }
-        
-        .art-row {
-            margin-bottom: 10px;
-        }
-        
-        /* Исправление SVG логотипа */
-        .navbar-brand svg {
-            height: 40px;
-            width: auto;
-        }
-        .navbar-brand path {
-            fill: #fff;
-        }
-    </style>
+   
 </head>
 <body>
     <!-- Шапка -->
@@ -108,7 +38,20 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#about">О бренде</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#polyurethane">Полиуретановые колеса</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#polyurethane" id="manufacturersDropdown" role="button" 
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            Полиуретановые колеса
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="manufacturersDropdown">
+                            <li><a class="dropdown-item" href="#hyster">Hyster</a></li>
+                            <li><a class="dropdown-item" href="#jungheinrich">Jungheinrich</a></li>
+                            <li><a class="dropdown-item" href="#bt">BT</a></li>
+                            <li><a class="dropdown-item" href="#toyota">Toyota</a></li>
+                            <li><a class="dropdown-item" href="#crown">Crown</a></li>
+                            <li><a class="dropdown-item" href="#still">Still</a></li>
+                        </ul>
+                    </li>
                     <li class="nav-item"><a class="nav-link" href="#solid">Цельнолитые колеса</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Обратная связь</a></li>
                     <li class="nav-item"><button class="btn btn-primary ms-2" data-bs-toggle="modal" data-bs-target="#requestModal">Получить цену</button></li>
@@ -119,6 +62,10 @@
 
     <!-- Основной контент -->
     <main>
+        <!-- Кнопка "Наверх" -->
+        <div id="scrollToTop" class="scroll-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </div>
         <!-- О бренде Ormond -->
         <section id="about" class="py-5">
             <div class="container">
@@ -169,65 +116,72 @@
                     </div>
                 </div>
 
-                <!-- Таблица с артикулами -->
-                <div class="card">
-                    <div class="card-header">
-                        <h4 class="mb-0">Каталог полиуретановых колес</h4>
+                <!-- Разделы производителей -->
+                <div class="manufacturer-section" id="hyster">
+                    <h3>Hyster</h3>
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Артикул</th>
+                                    <th>Размер</th>
+                                    <th>Тип</th>
+                                    <th>Нагрузка (кг)</th>
+                                    <th>Цена</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="#" data-search="HY-2048">HY-2048</a></td>
+                                    <td>200x50</td>
+                                    <td>Полиуретан</td>
+                                    <td>450</td>
+                                    <td>По запросу</td>
+                                    <td>
+                                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="HY-2048">
+                                            <i class="fas fa-envelope me-1"></i> Запросить
+                                        </button>
+                                    </td>
+                                </tr>
+                                <!-- Другие колеса для Hyster -->
+                            </tbody>
+                        </table>
                     </div>
-                    <div class="card-body">
-                        <div class="table-responsive">
-                            <table class="table table-hover">
-                                <thead>
-                                    <tr>
-                                        <th>Артикул</th>
-                                        <th>Размер</th>
-                                        <th>Тип</th>
-                                        <th>Нагрузка (кг)</th>
-                                        <th>Цена</th>
-                                        <th></th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td><a href="#" onclick="searchPart('OR-2048')">OR-2048</a></td>
-                                        <td>200x50</td>
-                                        <td>Полиуретан</td>
-                                        <td>450</td>
-                                        <td>По запросу</td>
-                                        <td>
-                                            <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="OR-2048">
-                                                <i class="fas fa-envelope me-1"></i> Запросить
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td><a href="#" onclick="searchPart('OR-3050')">OR-3050</a></td>
-                                        <td>300x80</td>
-                                        <td>Полиуретан</td>
-                                        <td>800</td>
-                                        <td>По запросу</td>
-                                        <td>
-                                            <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="OR-3050">
-                                                <i class="fas fa-envelope me-1"></i> Запросить
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td><a href="#" onclick="searchPart('OR-4070')">OR-4070</a></td>
-                                        <td>400x100</td>
-                                        <td>Полиуретан</td>
-                                        <td>1200</td>
-                                        <td>По запросу</td>
-                                        <td>
-                                            <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="OR-4070">
-                                                <i class="fas fa-envelope me-1"></i> Запросить
-                                            </button>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
+                </div>
+
+                <div class="manufacturer-section" id="jungheinrich">
+                    <h3>Jungheinrich</h3>
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <!-- ... аналогично Hyster ... -->
+                        </table>
                     </div>
+                </div>
+
+                <div class="manufacturer-section" id="bt">
+                    <h3>BT</h3>
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <!-- ... аналогично Hyster ... -->
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Остальные производители -->
+                <div class="manufacturer-section" id="toyota">
+                    <h3>Toyota</h3>
+                    <!-- ... -->
+                </div>
+                
+                <div class="manufacturer-section" id="crown">
+                    <h3>Crown</h3>
+                    <!-- ... -->
+                </div>
+                
+                <div class="manufacturer-section" id="still">
+                    <h3>Still</h3>
+                    <!-- ... -->
                 </div>
             </div>
         </section>
@@ -431,124 +385,6 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     
-    <script>
-        // Функция для добавления нового артикула
-        function addItem() {
-            const container = document.getElementById('itemsContainer');
-            const newItem = document.createElement('div');
-            newItem.className = 'art-row row g-2 mb-2';
-            newItem.innerHTML = `
-                <div class="col-6">
-                    <input type="text" class="form-control" name="article[]" placeholder="Артикул" required>
-                </div>
-                <div class="col-4">
-                    <input type="number" class="form-control" name="quantity[]" placeholder="Кол-во" min="1" required>
-                </div>
-                <div class="col-2">
-                    <button type="button" class="btn btn-danger w-100" onclick="removeItem(this)">
-                        <i class="fas fa-times"></i>
-                    </button>
-                </div>
-            `;
-            container.appendChild(newItem);
-        }
-        
-        // Функция для удаления артикула
-        function removeItem(btn) {
-            const item = btn.closest('.art-row');
-            item.remove();
-            
-            // Если остался только один элемент - отключаем кнопку удаления
-            const items = document.querySelectorAll('.art-row');
-            if (items.length === 1) {
-                items[0].querySelector('button').disabled = true;
-            }
-        }
-        
-        // Функция для поиска детали
-        function searchPart(article) {
-            // Создаем форму для отправки POST запроса
-            const form = document.createElement('form');
-            form.method = 'POST';
-            form.action = 'https://reach-stacker-parts.ru/search.php';
-            
-            // Создаем скрытое поле для артикула
-            const input = document.createElement('input');
-            input.type = 'hidden';
-            input.name = 'article';
-            input.value = article;
-            
-            // Добавляем поле в форму и отправляем
-            form.appendChild(input);
-            document.body.appendChild(form);
-            form.submit();
-        }
-        
-        // Обработчик для формы запроса цены
-        document.getElementById('requestForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Закрываем модалку запроса
-            const requestModal = bootstrap.Modal.getInstance(document.getElementById('requestModal'));
-            requestModal.hide();
-            
-            // Показываем модалку благодарности
-            const thankYouModal = new bootstrap.Modal(document.getElementById('thankYouModal'));
-            thankYouModal.show();
-            
-            // Здесь будет отправка данных на сервер
-            console.log('Request form submitted');
-            
-            // Очистка формы
-            this.reset();
-            document.getElementById('itemsContainer').innerHTML = `
-                <div class="art-row row g-2 mb-2">
-                    <div class="col-6">
-                        <input type="text" class="form-control" name="article[]" placeholder="Артикул" required>
-                    </div>
-                    <div class="col-4">
-                        <input type="number" class="form-control" name="quantity[]" placeholder="Кол-во" min="1" required>
-                    </div>
-                    <div class="col-2">
-                        <button type="button" class="btn btn-danger w-100" onclick="removeItem(this)" disabled>
-                            <i class="fas fa-times"></i>
-                        </button>
-                    </div>
-                </div>
-            `;
-        });
-        
-        // Обработчик для формы обратной связи
-        document.getElementById('contactForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert('Сообщение отправлено! Мы свяжемся с вами в ближайшее время.');
-            this.reset();
-        });
-        
-        // Инициализация при загрузке страницы
-        document.addEventListener('DOMContentLoaded', function() {
-            // Плавная прокрутка для якорных ссылок
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    const target = document.querySelector(this.getAttribute('href'));
-                    if (target) {
-                        window.scrollTo({
-                            top: target.offsetTop - 80,
-                            behavior: 'smooth'
-                        });
-                    }
-                });
-            });
-            
-            // Обработчик для передачи артикула в модальное окно
-            document.querySelectorAll('[data-article]').forEach(btn => {
-                btn.addEventListener('click', function() {
-                    const article = this.getAttribute('data-article');
-                    document.querySelector('#requestForm input[name="article[]"]').value = article;
-                });
-            });
-        });
-    </script>
+<?php include_once __DIR__ . '/js/scripts.php' ?>
 </body>
 </html>
