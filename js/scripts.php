@@ -216,3 +216,44 @@
         });
     });
 </script>
+<script>
+    // Функция для добавления нового поля артикула
+    function addItem() {
+        const container = document.getElementById('itemsContainer');
+        const newRow = document.createElement('div');
+        newRow.className = 'art-row row g-2 mb-2';
+        newRow.innerHTML = `
+            <div class="col-6">
+                <input type="text" class="form-control" name="article[]" placeholder="Артикул" required>
+            </div>
+            <div class="col-4">
+                <input type="number" class="form-control" name="quantity[]" placeholder="Кол-во" min="1" required>
+            </div>
+            <div class="col-2">
+                <button type="button" class="btn btn-danger w-100" onclick="removeItem(this)">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        `;
+        container.appendChild(newRow);
+    }
+
+    // Функция для удаления поля артикула
+    function removeItem(button) {
+        const row = button.closest('.art-row');
+        row.remove();
+    }
+
+    // Обработчик события для открытия модального окна
+    document.addEventListener('DOMContentLoaded', function() {
+        const requestModal = document.getElementById('requestModal');
+        requestModal.addEventListener('show.bs.modal', function(event) {
+            const button = event.relatedTarget; // Кнопка, которая открыла модальное окно
+            const article = button.getAttribute('data-article'); // Получаем артикул из атрибута data-article
+
+            // Заполняем первое поле артикула значением из кнопки
+            const articleInput = requestModal.querySelector('input[name="article[]"]');
+            articleInput.value = article;
+        });
+    });
+</script>

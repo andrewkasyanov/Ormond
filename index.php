@@ -348,7 +348,7 @@ require_once __DIR__ . '/src/helpers.php';
                     <h5>Контакты</h5>
                     <ul class="list-unstyled">
                         <li><i class="fas fa-phone me-2"></i> +7 (495) 123-45-67</li>
-                        <li><i class="fas fa-envelope me-2"></i> info@reach-stacker-parts.ru</li>
+                        <li><i class="fas fa-envelope me-2"></i> xxxxx@xxxxxx</li>
                         <li><i class="fas fa-map-marker-alt me-2"></i> Москва, ул. Промышленная, 15</li>
                     </ul>
                 </div>
