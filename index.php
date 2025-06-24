@@ -1,3 +1,7 @@
+<?php
+require_once __DIR__ . '/src/helpers.php';
+?>
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -47,9 +51,9 @@
                             <li><a class="dropdown-item" href="#hyster">Hyster</a></li>
                             <li><a class="dropdown-item" href="#jungheinrich">Jungheinrich</a></li>
                             <li><a class="dropdown-item" href="#bt">BT</a></li>
-                            <li><a class="dropdown-item" href="#toyota">Toyota</a></li>
-                            <li><a class="dropdown-item" href="#crown">Crown</a></li>
+                            <li><a class="dropdown-item" href="#Linde">Linde</a></li>
                             <li><a class="dropdown-item" href="#still">Still</a></li>
+                            <li><a class="dropdown-item" href="#Noblelift">Noblelift</a></li>
                         </ul>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="#solid">Цельнолитые колеса</a></li>
@@ -108,7 +112,7 @@
                         <p>Полиуретановые колеса Ormond разработаны специально для интенсивной эксплуатации на складах. Особенности:</p>
                         <ul>
                             <li>Материал: полиуретан высокой плотности (95A)</li>
-                            <li>Срок службы: 15,000+ часов</li>
+                            <li>Срок службы: 2 000+ часов</li>
                             <li>Макс. нагрузка: от 200 до 2000 кг</li>
                             <li>Температурный режим: -35°C до +100°C</li>
                             <li>Стойкость к маслам, жирам и химикатам</li>
@@ -117,6 +121,7 @@
                 </div>
 
                 <!-- Разделы производителей -->
+                <!-- Hyster -->
                 <div class="manufacturer-section" id="hyster">
                     <h3>Hyster</h3>
                     <div class="table-responsive">
@@ -124,64 +129,135 @@
                             <thead>
                                 <tr>
                                     <th>Артикул</th>
-                                    <th>Размер</th>
+                                    <th>Наименование</th>
                                     <th>Тип</th>
-                                    <th>Нагрузка (кг)</th>
+                                    <th>Твердость по Шору</th>
                                     <th>Цена</th>
                                     <th></th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td><a href="#" data-search="HY-2048">HY-2048</a></td>
-                                    <td>200x50</td>
-                                    <td>Полиуретан</td>
-                                    <td>450</td>
-                                    <td>По запросу</td>
-                                    <td>
-                                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="HY-2048">
-                                            <i class="fas fa-envelope me-1"></i> Запросить
-                                        </button>
-                                    </td>
-                                </tr>
-                                <!-- Другие колеса для Hyster -->
+                                <?php 
+                                    echo getHysterTable();
+                                ?>
                             </tbody>
                         </table>
                     </div>
                 </div>
-
+                <!-- JH -->
                 <div class="manufacturer-section" id="jungheinrich">
                     <h3>Jungheinrich</h3>
                     <div class="table-responsive">
                         <table class="table table-hover">
-                            <!-- ... аналогично Hyster ... -->
+                            <thead>
+                                <tr>
+                                    <th>Артикул</th>
+                                    <th>Наименование</th>
+                                    <th>Тип</th>
+                                    <th>Твердость по Шору</th>
+                                    <th>Цена</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php 
+                                    echo getJHTable();
+                                ?>
+                            </tbody>
                         </table>
                     </div>
                 </div>
-
+                <!-- BT -->
                 <div class="manufacturer-section" id="bt">
                     <h3>BT</h3>
                     <div class="table-responsive">
                         <table class="table table-hover">
-                            <!-- ... аналогично Hyster ... -->
+                            <thead>
+                                <tr>
+                                    <th>Артикул</th>
+                                    <th>Наименование</th>
+                                    <th>Тип</th>
+                                    <th>Твердость по Шору</th>
+                                    <th>Цена</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php 
+                                    echo getBTTable();
+                                ?>
+                            </tbody>
                         </table>
                     </div>
                 </div>
-
-                <!-- Остальные производители -->
-                <div class="manufacturer-section" id="toyota">
-                    <h3>Toyota</h3>
-                    <!-- ... -->
+                <!-- Linde -->           
+                <div class="manufacturer-section" id="Linde">
+                    <h3>Linde</h3>
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Артикул</th>
+                                    <th>Наименование</th>
+                                    <th>Тип</th>
+                                    <th>Твердость по Шору</th>
+                                    <th>Цена</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php 
+                                    echo getLindeTable();
+                                ?>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
-                
-                <div class="manufacturer-section" id="crown">
-                    <h3>Crown</h3>
-                    <!-- ... -->
-                </div>
-                
+                <!-- Still -->
                 <div class="manufacturer-section" id="still">
                     <h3>Still</h3>
-                    <!-- ... -->
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Артикул</th>
+                                    <th>Наименование</th>
+                                    <th>Тип</th>
+                                    <th>Твердость по Шору</th>
+                                    <th>Цена</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php 
+                                    echo getStillTable();
+                                ?>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!-- Noblelift -->
+                <div class="manufacturer-section" id="Noblelift">
+                    <h3>Noblelift</h3>
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Артикул</th>
+                                    <th>Наименование</th>
+                                    <th>Тип</th>
+                                    <th>Твердость по Шору</th>
+                                    <th>Цена</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php 
+                                    echo getNobleliftTable();
+                                ?>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </section>

@@ -171,3 +171,7 @@ body {
     background-color: #e03535;
     transform: scale(1.1);
 }
+
+.table-responsive {
+    font-size: 14px;
+}
