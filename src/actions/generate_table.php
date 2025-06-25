@@ -49,7 +49,7 @@ function generateTable($pdo, $manufacturer) {
 }
 
 $pdo = getPDO();
-$manufacturers = ['Jungheinrich', 'Still', 'BT', 'Linde', 'Noblelift'];
+$manufacturers = ['Crown', 'Yale'];
 
 foreach ($manufacturers as $manufacturer) {
     $htmlCode = generateTable($pdo, $manufacturer);

@@ -7,14 +7,11 @@ require_once __DIR__ . '/src/helpers.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Колеса Ormond для складской техники | А-Сервис</title>
-    
-    <!-- Bootstrap 5 CSS -->
+    <title>Колеса Ormond для складской техники | А-Сервис</title>    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css?v=<?php echo filemtime($_SERVER['DOCUMENT_ROOT'] . '/css/style.css'); ?>" />
-    
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
    
 </head>
 <body>
@@ -24,6 +21,7 @@ require_once __DIR__ . '/src/helpers.php';
             <a class="navbar-brand" href="#">
                 <svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 992 257" preserveAspectRatio="xMidYMid meet">
                     <g transform="translate(0,257) scale(0.1,-0.1)">
+                        <!--
                         <path d="M1165 2563 c-325 -39 -559 -145 -776 -351 -275 -261 -405 -591 -386 -982 17 -338 128 -610 343 -840 232 -246 520 -369 909 -387 410 -19 788 117 1040 374 41 42 75 82 75 87 0 13 -46 38 -430 242 l-285 152 -3 429 -2 429 212 114 c117 62 238 127 268 143 108 57 220 122 220 128 0 19 -132 157 -201 208 -99 75 -292 171 -413 206 -154 44 -420 66 -571 48z m400 -256 c104 -23 206 -62 328 -125 85 -44 106 -58 94 -66 -8 -6 -354 -188 -771 -405 -703 -367 -756 -397 -756 -420 0 -24 55 -55 763 -429 419 -221 768 -406 775 -410 17 -11 -84 -82 -181 -127 -217 -100 -534 -120 -795 -50 -187 50 -335 138 -474 283 -134 140 -206 267 -256 451 -23 86 -25 115 -25 271 0 159 2 184 27 274 51 186 134 332 262 461 157 157 350 256 586 301 92 17 325 12 423 -9z m-85 -1017 c0 -206 -4 -330 -10 -330 -12 0 -601 309 -617 324 -9 8 67 53 295 173 169 89 313 162 320 162 9 1 12 -71 12 -329z"/>
                         <path d="M4808 1879 c-99 -11 -189 -44 -274 -101 -158 -106 -244 -272 -244 -473 1 -324 184 -536 499 -575 136 -18 316 11 421 66 75 39 72 33 49 105 -12 35 -23 66 -25 67 -1 2 -40 -15 -86 -37 -150 -75 -331 -79 -474 -12 -87 41 -138 91 -182 179 -37 76 -37 76 -37 201 0 159 19 213 106 305 86 93 169 129 307 134 86 4 114 1 172 -18 39 -12 90 -35 115 -51 25 -16 50 -29 55 -29 5 0 24 27 40 61 36 70 39 65 -61 118 -95 51 -247 75 -381 60z"/>
                         <path d="M2717 1311 c-130 -301 -237 -551 -237 -555 0 -4 36 -6 81 -4 l81 3 73 175 73 175 249 2 248 3 75 -180 75 -180 83 0 c45 0 82 3 82 6 0 4 -106 253 -236 555 l-237 549 -86 0 -87 0 -237 -549z m418 155 c47 -113 85 -208 85 -211 0 -3 -84 -5 -186 -5 -102 0 -184 4 -182 9 71 181 185 436 191 425 4 -7 46 -105 92 -218z"/>
@@ -33,6 +31,7 @@ require_once __DIR__ . '/src/helpers.php';
                         <path d="M7100 1229 l0 -480 253 3 c243 3 254 4 301 27 133 65 192 196 152 334 -16 56 -79 137 -116 149 -12 4 -10 11 11 34 46 50 63 94 63 164 0 79 -25 132 -84 182 -69 60 -113 68 -361 68 l-219 0 0 -481z m422 341 c56 -16 88 -60 88 -124 0 -104 -43 -129 -225 -130 l-130 -1 -3 133 -3 132 118 0 c65 0 135 -5 155 -10z m66 -404 c40 -21 63 -50 72 -93 12 -51 -2 -109 -36 -144 -36 -37 -95 -49 -249 -49 l-125 0 0 150 0 150 155 0 c114 0 163 -4 183 -14z"/>
                         <path d="M7960 1230 l0 -480 73 1 72 0 285 352 285 351 3 -352 2 -352 75 0 75 0 0 480 0 480 -68 0 -68 0 -289 -357 -290 -358 -3 358 -2 357 -75 0 -75 0 0 -480z"/>
                         <path d="M3672 1213 l3 -68 255 0 255 0 3 68 3 67 -261 0 -261 0 3 -67z"/>
+                        -->
                     </g>
                 </svg>
             </a>
@@ -49,10 +48,12 @@ require_once __DIR__ . '/src/helpers.php';
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="manufacturersDropdown">
                             <li><a class="dropdown-item" href="#hyster">Hyster</a></li>
+                            <li><a class="dropdown-item" href="#Yale">Yale</a></li>
                             <li><a class="dropdown-item" href="#jungheinrich">Jungheinrich</a></li>
                             <li><a class="dropdown-item" href="#bt">BT</a></li>
                             <li><a class="dropdown-item" href="#Linde">Linde</a></li>
                             <li><a class="dropdown-item" href="#still">Still</a></li>
+                            <li><a class="dropdown-item" href="#Crown">Crown</a></li>
                             <li><a class="dropdown-item" href="#Noblelift">Noblelift</a></li>
                         </ul>
                     </li>
@@ -105,7 +106,51 @@ require_once __DIR__ . '/src/helpers.php';
                 
                 <div class="row mb-4">
                     <div class="col-md-6">
-                        <img src="images/wheel-placeholder.jpg" alt="Колесо Ormond" class="img-fluid rounded">
+                        <div class="swiper-container" style="max-width: 100%; margin: 0 auto;">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="images/wheel-1.webp" alt="Колесо Ormond модель 1" class="img-fluid rounded">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/wheel-2.webp" alt="Колесо Ormond модель 2" class="img-fluid rounded">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/wheel-3.webp" alt="Колесо Ormond модель 3" class="img-fluid rounded">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/wheel-4.webp" alt="Колесо Ormond модель 4" class="img-fluid rounded">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/wheel-5.webp" alt="Колесо Ormond модель 5" class="img-fluid rounded">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/wheel-6.webp" alt="Колесо Ormond модель 6" class="img-fluid rounded">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/wheel-7.webp" alt="Колесо Ormond модель 7" class="img-fluid rounded">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/wheel-8.webp" alt="Колесо Ormond модель 8" class="img-fluid rounded">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/wheel-9.webp" alt="Колесо Ormond модель 9" class="img-fluid rounded">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/wheel-10.webp" alt="Колесо Ormond модель 10" class="img-fluid rounded">
+                                </div>
+                            </div>
+                            <!-- Навигационные элементы -->
+                            <div class="swiper-custom-nav">
+                                <div class="custom-swiper-button custom-prev">
+                                    <i class="fas fa-chevron-left"></i>
+                                </div>
+                                <div class="custom-swiper-button custom-next">
+                                    <i class="fas fa-chevron-right"></i>
+                                </div>
+                            </div>
+                            <!-- Пагинация -->
+                            <div class="swiper-pagination"></div>
+                        </div>
                     </div>
                     <div class="col-md-6">
                         <h3>Технические характеристики</h3>
@@ -124,6 +169,12 @@ require_once __DIR__ . '/src/helpers.php';
                 <!-- Hyster -->
                 <div class="manufacturer-section" id="hyster">
                     <h3>Hyster</h3>
+                    <div>
+                        <p>
+                            <strong>Основные модели погрузчиков HYSTER с полиуретановыми колесами:</strong><br>
+P1.4, P1.6, P2.0, S1.0E, S1.2E, S1.5E, S1.6, S1.8,S2.0, S1.2C, S1.4C, S1.6C, S2.0C, SC1.5, SC2.0, S1.6IL, S1.8IL, S2.0IL, S1.6S, S2.0S, S1.4S, S1.0XL, S2.0XL, R1.4-2.5, RP, C1.5, LO1.0
+                        </p>
+                    </div>
                     <div class="table-responsive">
                         <table class="table table-hover">
                             <thead>
@@ -144,9 +195,44 @@ require_once __DIR__ . '/src/helpers.php';
                         </table>
                     </div>
                 </div>
+                <!-- Yale -->
+                <div class="manufacturer-section" id="Yale">
+                    <h3>Yale</h3>
+                    <div>
+                        <p>
+                            <strong>Основные модели погрузчиков YALE с полиуретановыми колесами:</strong><br>
+MS10E, MS10/12/14/16, MP16/18/20/22
+                        </p>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Артикул</th>
+                                    <th>Наименование</th>
+                                    <th>Тип</th>
+                                    <th>Твердость по Шору</th>
+                                    <th>Цена</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php 
+                                    echo getYaleTable();
+                                ?>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
                 <!-- JH -->
                 <div class="manufacturer-section" id="jungheinrich">
                     <h3>Jungheinrich</h3>
+                    <div>
+                        <p>
+                            <strong>Основные модели погрузчиков Jungheinrich с полиуретановыми колесами:</strong><br>
+EJE116-120, EJE222, ERC214-220, EMC110, ETV214-318, ETVQ, EKS215a, EKX410-515, ETM216, EJC112, ERE225, ESC316, EZS350, ECE225
+                        </p>
+                    </div>
                     <div class="table-responsive">
                         <table class="table table-hover">
                             <thead>
@@ -170,6 +256,12 @@ require_once __DIR__ . '/src/helpers.php';
                 <!-- BT -->
                 <div class="manufacturer-section" id="bt">
                     <h3>BT</h3>
+                    <div>
+                        <p>
+                            <strong>Основные модели погрузчиков BT с полиуретановыми колесами:</strong><br>
+RRE160,RRE180 ,RRE200,RRE240,BT Staxio 1.4, Staxio 1.6, Staxio2.0, Staxio2.5，BT VCE 160, BT VCE 200
+                        </p>
+                    </div>
                     <div class="table-responsive">
                         <table class="table table-hover">
                             <thead>
@@ -193,6 +285,12 @@ require_once __DIR__ . '/src/helpers.php';
                 <!-- Linde -->           
                 <div class="manufacturer-section" id="Linde">
                     <h3>Linde</h3>
+                    <div>
+                        <p>
+                            <strong>Основные модели погрузчиков Linde с полиуретановыми колесами:</strong><br>
+L10, L12, L14, L16, L14i, L16i, L10B, L10B, L14B, L16AC, L14AC, L20, L06AC, L08AC, L14R, L16R, L12R, L14P, L16P, L14SP, R-series, T-series, MT
+                        </p>
+                    </div>
                     <div class="table-responsive">
                         <table class="table table-hover">
                             <thead>
@@ -216,6 +314,12 @@ require_once __DIR__ . '/src/helpers.php';
                 <!-- Still -->
                 <div class="manufacturer-section" id="still">
                     <h3>Still</h3>
+                    <div>
+                        <p>
+                            <strong>Основные модели погрузчиков Still с полиуретановыми колесами:</strong><br>
+FM-X12, FM-X14, FM-X16, EXV12, EXV14, EXV16, EGV12, EGV14, EGV16, EXU14, EXU18, EXU20, EXH12, EXH14, ECH12, ECH14, CX-T,  EXU-S, EXV-SF, EXH-SF, FM-SE, ECU, FM-XP
+                        </p>
+                    </div>
                     <div class="table-responsive">
                         <table class="table table-hover">
                             <thead>
@@ -236,9 +340,44 @@ require_once __DIR__ . '/src/helpers.php';
                         </table>
                     </div>
                 </div>
+                <!-- Crown -->
+                <div class="manufacturer-section" id="Crown">
+                    <h3>Crown</h3>
+                    <div>
+                        <p>
+                            <strong>Основные модели погрузчиков Crown с полиуретановыми колесами:</strong><br>
+ESR 5200, SP 3500,TSP 6500, WP 3000, RR 5700,SHR 5500, ST 3000, SX 3000, DT 3000, PE 4500, GPC 3000, TR 4500, ET 4000, PC 4500, RM 6000, ESR 5000, RC 5500
+                        </p>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Артикул</th>
+                                    <th>Наименование</th>
+                                    <th>Тип</th>
+                                    <th>Твердость по Шору</th>
+                                    <th>Цена</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php 
+                                    echo getCrownTable();
+                                ?>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
                 <!-- Noblelift -->
                 <div class="manufacturer-section" id="Noblelift">
                     <h3>Noblelift</h3>
+                    <div>
+                        <p>
+                            <strong>Основные модели погрузчиков Noblelift с полиуретановыми колесами:</strong><br>
+EPT, PT, PTE, EPT, ECL, PS, PSE, RT, PH, PL, SC
+                        </p>
+                    </div>
                     <div class="table-responsive">
                         <table class="table table-hover">
                             <thead>
@@ -462,5 +601,6 @@ require_once __DIR__ . '/src/helpers.php';
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     
 <?php include_once __DIR__ . '/js/scripts.php' ?>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 </html>

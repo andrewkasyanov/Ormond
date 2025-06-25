@@ -3442,4 +3442,925 @@ function getNobleliftTable() {
     ';
 }
 
+function getYaleTable() {
+    echo '
+        <tr>
+                    <td><a href="#" data-search="272015300">272015300</a></td>
+                    <td>Колесо подвилочное 85х70</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="272015300">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="277220100">277220100</a></td>
+                    <td>Колесо опорное 125х50</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="277220100">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="277548200">277548200</a></td>
+                    <td>Колесо подвилочное 85х70</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="277548200">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="580013477">580013477</a></td>
+                    <td>Колесо ведущее 230х82</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="580013477">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="580013479">580013479</a></td>
+                    <td>Колесо ведущее 230х75</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="580013479">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="580014654">580014654</a></td>
+                    <td>Колесо опорное 150х47</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="580014654">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="580022041">580022041</a></td>
+                    <td>Колесо ведущее 230х75</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="580022041">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="580026043">580026043</a></td>
+                    <td>Колесо ведущее 343х140</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="580026043">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="580026051">580026051</a></td>
+                    <td>Колесо опорное 250x100</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="580026051">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="580026052">580026052</a></td>
+                    <td>Колесо грузовое 285х100</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="580026052">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="580026053">580026053</a></td>
+                    <td>Колесо грузовое 349х100</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="580026053">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="580026054">580026054</a></td>
+                    <td>Колесо грузовое 350/127/280/80</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="580026054">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="580026058">580026058</a></td>
+                    <td>Колесо ведущее 305х140</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="580026058">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="580035350">580035350</a></td>
+                    <td>Колесо опорное 100х40. в сборе</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="580035350">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="580036546">580036546</a></td>
+                    <td>Колесо ведущее 250х125</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="580036546">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="580037499">580037499</a></td>
+                    <td>Колесо опорное 100х40</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="580037499">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="580037612">580037612</a></td>
+                    <td>Колесо подвилочное 85х70</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="580037612">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="580037613">580037613</a></td>
+                    <td>Колесо подвилочное 84х95</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="580037613">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="580037617">580037617</a></td>
+                    <td>Колесо подвилочное 85х90</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="580037617">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="580038706">580038706</a></td>
+                    <td>Колесо подвилочное 85х66</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="580038706">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="580038707">580038707</a></td>
+                    <td>Колесо подвилочное 85х98</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="580038707">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="580038927">580038927</a></td>
+                    <td>Колесо ведущее  230х75</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="580038927">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="580059473">580059473</a></td>
+                    <td>Колесо подвилочное 85х90</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="580059473">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="580059476">580059476</a></td>
+                    <td>Колесо грузовое 85/90-12</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="580059476">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="580062231">580062231</a></td>
+                    <td>Колесо опорное 125х50-25</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="580062231">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="580062232">580062232</a></td>
+                    <td>Колесо опорное 125х50</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="580062232">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="580064668">580064668</a></td>
+                    <td>Колесо подвилочное 85х110</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="580064668">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+    ';
+}
+
+function getCrownTable() {
+    echo '
+        <tr>
+                    <td><a href="#" data-search="083179">083179</a></td>
+                    <td>Колесо опорное 102х63</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="083179">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="100462">100462</a></td>
+                    <td>Колесо подвилочное 83х165</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="100462">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="100462302">100462302</a></td>
+                    <td>Колесо подвилочное 83х165</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="100462302">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="1046278141248">1046278141248</a></td>
+                    <td>Колесо подвилочное 83х165</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="1046278141248">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="113018S60">113018S60</a></td>
+                    <td>Колесо грузовое 265х102</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="113018S60">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="115032">115032</a></td>
+                    <td>Колесо опорное 127х73</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="115032">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="115032401">115032401</a></td>
+                    <td>Колесо опорное 127х73</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="115032401">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="115033">115033</a></td>
+                    <td>Колесо опорное 127х104</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="115033">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="115033401">115033401</a></td>
+                    <td>Колесо опорное 127х104</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="115033401">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="118447">118447</a></td>
+                    <td>Колесо грузовое 125х63.5</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="118447">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="12150001">12150001</a></td>
+                    <td>Колесо грузовое 330х140</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="12150001">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="121501">121501</a></td>
+                    <td>Колесо грузовое 330х140</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="121501">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="12150144201">12150144201</a></td>
+                    <td>Колесо грузовое 330х140</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="12150144201">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="123240">123240</a></td>
+                    <td>Колесо грузовое 203х107</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="123240">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="125069">125069</a></td>
+                    <td>Колесо опорное 152х73</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="125069">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="125070">125070</a></td>
+                    <td>Колесо опорное 152х104</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="125070">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="125070401">125070401</a></td>
+                    <td>Колесо опорное 152х104</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="125070401">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="12507040188">12507040188</a></td>
+                    <td>Колесо опорное 152х104</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="12507040188">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="127723">127723</a></td>
+                    <td>Колесо грузовое 204х107</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="127723">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="127723302">127723302</a></td>
+                    <td>Колесо грузовое 204х101</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="127723302">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="12772330588">12772330588</a></td>
+                    <td>Колесо грузовое 204х107</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="12772330588">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="129873302">129873302</a></td>
+                    <td>Колесо опорное 152х108</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="129873302">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="132359">132359</a></td>
+                    <td>Колесо грузовое 216х68</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="132359">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="132359302">132359302</a></td>
+                    <td>Колесо грузовое 216х68</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="132359302">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="133753001">133753001</a></td>
+                    <td>Колесо опорное 14.25х8</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="133753001">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="133904004">133904004</a></td>
+                    <td>Колесо опорное 15.25х7</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="133904004">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="370220">370220</a></td>
+                    <td>Колесо грузовое 230х70</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="370220">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="802846">802846</a></td>
+                    <td>Колесо грузовое 250х75</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="802846">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="805888006">805888006</a></td>
+                    <td>Колесо подвилочное 90х50</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="805888006">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="80588806">80588806</a></td>
+                    <td>Колесо подвилочное 90х50</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="80588806">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="805961001">805961001</a></td>
+                    <td>Колесо грузовое 230х75</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="805961001">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="807557">807557</a></td>
+                    <td>Колесо ведущее 343х276х140</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="807557">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="808909">808909</a></td>
+                    <td>Колесо подвилочное 85х110</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="808909">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="808909001">808909001</a></td>
+                    <td>Колесо подвилочное 85х110</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="808909001">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="808981001">808981001</a></td>
+                    <td>Колесо подвилочное 85х60</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="808981001">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="808984001">808984001</a></td>
+                    <td>Колесо подвилочное 82х82</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="808984001">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="810574001">810574001</a></td>
+                    <td>Колесо грузовое 285х100</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="810574001">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="810583001">810583001</a></td>
+                    <td>Колесо грузовое 285х210х100</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="810583001">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="811802">811802</a></td>
+                    <td>Колесо опорное 125х54</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="811802">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="812899">812899</a></td>
+                    <td>Колесо подвилочное 82х112</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="812899">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="813130">813130</a></td>
+                    <td>Колесо опорное 125х54</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="813130">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="816356">816356</a></td>
+                    <td>Колесо грузовое 330х210х100</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="816356">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="816357">816357</a></td>
+                    <td>Колесо грузовое 330х210х100</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="816357">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="820183">820183</a></td>
+                    <td>Колесо грузовое 285х100</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="820183">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="820184">820184</a></td>
+                    <td>Колесо грузовое 285х100</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="820184">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="820263">820263</a></td>
+                    <td>Колесо опорное 125х54</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="820263">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>                
+                <tr>
+                    <td><a href="#" data-search="83179035">83179035</a></td>
+                    <td>Колесо опорное 102х64</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="83179035">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="9815000599">9815000599</a></td>
+                    <td>Колесо грузовое 330х135</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="9815000599">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" data-search="TH2302A">TH2302A</a></td>
+                    <td>Колесо опорное 152х104</td>
+                    <td>Полиуретан</td>
+                    <td>95А</td>
+                    <td>По запросу</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="TH2302A">
+                            <i class="fas fa-envelope me-1"></i> Запросить
+                        </button>
+                    </td>
+                </tr>
+    ';
+}
 ?>
