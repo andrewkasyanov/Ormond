@@ -102,8 +102,7 @@ require_once __DIR__ . '/src/helpers.php';
         <!-- Полиуретановые колеса -->
         <section id="polyurethane" class="py-5 bg-light">
             <div class="container">
-                <h2 class="section-title">Полиуретановые колеса для складской техники</h2>
-                
+                <h2 class="section-title">Полиуретановые колеса для складской техники</h2>                
                 <div class="row mb-4">
                     <div class="col-md-6">
                         <div class="swiper-container" style="max-width: 100%; margin: 0 auto;">
@@ -172,7 +171,8 @@ require_once __DIR__ . '/src/helpers.php';
                     <div>
                         <p>
                             <strong>Основные модели погрузчиков HYSTER с полиуретановыми колесами:</strong><br>
-P1.4, P1.6, P2.0, S1.0E, S1.2E, S1.5E, S1.6, S1.8,S2.0, S1.2C, S1.4C, S1.6C, S2.0C, SC1.5, SC2.0, S1.6IL, S1.8IL, S2.0IL, S1.6S, S2.0S, S1.4S, S1.0XL, S2.0XL, R1.4-2.5, RP, C1.5, LO1.0
+                            P1.4, P1.6, P2.0, S1.0E, S1.2E, S1.5E, S1.6, S1.8,S2.0, S1.2C, S1.4C, S1.6C, S2.0C, SC1.5,
+                            SC2.0, S1.6IL, S1.8IL, S2.0IL, S1.6S, S2.0S, S1.4S, S1.0XL, S2.0XL, R1.4-2.5, RP, C1.5, LO1.0
                         </p>
                     </div>
                     <div class="table-responsive">

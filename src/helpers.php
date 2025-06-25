@@ -1028,19 +1028,7 @@ function getJHTable () {
                             <i class="fas fa-envelope me-1"></i> Запросить
                         </button>
                     </td>
-                </tr>
-                <tr>
-                    <td><a href="#" data-search="51118912">51118912</a></td>
-                    <td>Рулевое колесо</td>
-                    <td>Полиуретан</td>
-                    <td>95А</td>
-                    <td>По запросу</td>
-                    <td>
-                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#requestModal" data-article="51118912">
-                            <i class="fas fa-envelope me-1"></i> Запросить
-                        </button>
-                    </td>
-                </tr>
+                </tr>               
                 
                 <tr>
                     <td><a href="#" data-search="51160625">51160625</a></td>
