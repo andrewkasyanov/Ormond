@@ -4351,4 +4351,13 @@ function getCrownTable() {
                 </tr>
     ';
 }
+
+function sendEmail($to, $subject, $body) {
+    $headers = 'MIME-Version: 1.0' . "\r\n";
+    $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
+    $headers .= 'From: ' . mb_encode_mimeheader('А-Сервис - Запчасти для складской техники', 'UTF-8') . ' <noreply@reach-stacker-parts.ru>' . "\r\n";
+    $headers .= 'X-Mailer: PHP/' . phpversion();
+    
+    return mail($to, $subject, $body, $headers);
+}
 ?>

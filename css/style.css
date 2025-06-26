@@ -163,7 +163,7 @@ body {
 
 .scroll-to-top {
     position: fixed;
-    bottom: 30px;
+    bottom: 90px;
     right: 30px;
     width: 50px;
     height: 50px;
@@ -326,4 +326,14 @@ body {
     .table-responsive td {
         padding: 4px;
     }
+}
+
+.links a {
+    color: lightgrey !important;
+    text-decoration: none !important;
+}
+
+.links a:hover {
+    color: #FF7373 !important;
+    text-decoration: none !important;
 }

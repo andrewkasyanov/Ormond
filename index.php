@@ -5,14 +5,25 @@ require_once __DIR__ . '/src/helpers.php';
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Колеса Ormond для складской техники | А-Сервис</title>    
+    <meta name="description" content="Колеса Ormond для спецтехники мировых производителей: Hyster, Kalmar, Sany, XCMG, Fantuzzi, Jungheinrich, BT, Still, Linde. Прямые поставки с завода-изготовителя без посредников">
+    <meta property="og:title" content="А-Сервис - Ваш проводник в мире полиуретановых и цельнолитых колес для ричстакеров и погрузчиков. Hyster, Kalmar, Sany, XCMG, ZPMC, Jungheinrich, Still, Linde, BT">
+    <meta property="og:description" content="Колеса Ormond для спецтехники мировых производителей: Hyster, Kalmar, Sany, XCMG, Fantuzzi, Jungheinrich, BT, Still, Linde. Прямые поставки с завода-изготовителя без посредников">
+    <meta property="og:image" content="https://ormond.ru/favicon.ico">
+    <meta property="og:url" content="https://ormond.ru">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="А-Сервис - Ваш проводник в мире полиуретановых и цельнолитых колес для ричстакеров и погрузчиков. Hyster, Kalmar, Sany, XCMG, ZPMC, Jungheinrich, Still, Linde, BT">
+    <meta name="twitter:description" content="Колеса Ormond для спецтехники мировых производителей: Hyster, Kalmar, Sany, XCMG, Fantuzzi, Jungheinrich, BT, Still, Linde. Прямые поставки с завода-изготовителя без посредников">
+    <meta name="twitter:image" content="https://ormond.ru/favicon.ico">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css?v=<?php echo filemtime($_SERVER['DOCUMENT_ROOT'] . '/css/style.css'); ?>" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-   
+    <script src="https://www.google.com/recaptcha/api.js?render=6LdQcW4rAAAAAIgzlEnFq_v6nTtU44mVIa2IfZ1n"></script>   
 </head>
 <body>
     <!-- Шапка -->
@@ -465,6 +476,7 @@ EPT, PT, PTE, EPT, ECL, PS, PSE, RT, PH, PL, SC
                                         <label class="form-label">Сообщение</label>
                                         <textarea class="form-control" rows="4" name="message" required></textarea>
                                     </div>
+                                    <input type="hidden" name="recaptcha_token" id="contact-recaptcha">
                                     <button type="submit" class="btn btn-primary">Отправить сообщение</button>
                                 </form>
                             </div>
@@ -479,31 +491,33 @@ EPT, PT, PTE, EPT, ECL, PS, PSE, RT, PH, PL, SC
     <footer class="bg-dark text-white py-4">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 mb-4 mb-md-0">
-                    <h5>А-Сервис</h5>
-                    <p>Поставка запасных частей для складской техники с 2008 года</p>
+                <div class="col-md-4 mb-4 mb-md-0 links">
+                    <h5><a href="https://reach-stacker-parts.ru">А-Сервис</a></h5>
+                    <p>Поставка запасных частей для складской техники с 2015 года</p>
                 </div>
-                <div class="col-md-4 mb-4 mb-md-0">
+                <div class="col-md-4 mb-4 mb-md-0 links">
                     <h5>Контакты</h5>
                     <ul class="list-unstyled">
-                        <li><i class="fas fa-phone me-2"></i> +7 (495) 123-45-67</li>
-                        <li><i class="fas fa-envelope me-2"></i> xxxxx@xxxxxx</li>
-                        <li><i class="fas fa-map-marker-alt me-2"></i> Москва, ул. Промышленная, 15</li>
+                        <li><i class="fas fa-phone me-2"></i> +7 (800) 201-09-04</li>
+                        <li><i class="fas fa-envelope me-2"></i>
+                            <a href="#" onclick="sendEmail(event)"> Написать нам</a></li>
+                        <li><i class="fas fa-map-marker-alt me-2"></i> Санкт-Петербург, ул.Инструментальная, д.3А</li>
                     </ul>
                 </div>
-                <div class="col-md-4">
-                    <h5>Быстрые ссылки</h5>
+                <div class="col-md-4 links">
                     <ul class="list-unstyled">
-                        <li><a href="#about" class="text-white">О бренде</a></li>
-                        <li><a href="#polyurethane" class="text-white">Колеса</a></li>
-                        <li><a href="#" class="text-white">Доставка</a></li>
-                        <li><a href="#" class="text-white">Политика конфиденциальности</a></li>
+                        <li><a href="#about">О бренде</a></li>
+                        <li><a href="#polyurethane">Колеса</a></li>
+                        <li><a href="https://reach-stacker-parts.ru/delivery.php" target="_blank">Доставка</a></li>
+                        <li><a href="/doc/politika_pd.pdf" target="_blank">Политика обработки ПД</a></li>
+                        <li><a href="/doc/soglasie_pd.pdf" target="_blank">Согласие на обработку ПД</a></li>
+                        <li><a href="/doc/soglasie_reklama.pdf" target="_blank">Согласие на получение рекламных рассылок</a></li>
                     </ul>
                 </div>
             </div>
             <hr class="my-4 bg-light">
             <div class="text-center">
-                <p class="mb-0">&copy; 2023 А-Сервис. Все права защищены.</p>
+                <p class="mb-0">&copy; 2025 А-Сервис. Все права защищены.</p>
             </div>
         </div>
     </footer>
@@ -565,7 +579,7 @@ EPT, PT, PTE, EPT, ECL, PS, PSE, RT, PH, PL, SC
                             <label class="form-label">Дополнительная информация</label>
                             <textarea class="form-control" rows="3" name="comments"></textarea>
                         </div>
-                        
+                        <input type="hidden" name="recaptcha_token" id="request-recaptcha">
                         <div class="text-center">
                             <button type="submit" class="btn btn-primary px-4">
                                 <i class="fas fa-paper-plane me-2"></i> Отправить запрос
@@ -587,7 +601,8 @@ EPT, PT, PTE, EPT, ECL, PS, PSE, RT, PH, PL, SC
                 </div>
                 <div class="modal-body text-center py-4">
                     <i class="fas fa-check-circle fa-4x text-success mb-3"></i>
-                    <p>Ваш запрос успешно отправлен. Наши менеджеры свяжутся с вами в ближайшее время для уточнения деталей.</p>
+                    <p>Ваш запрос <strong id="requestNumberDisplay"></strong> успешно отправлен.</p>
+                    <p>Наши менеджеры свяжутся с вами в ближайшее время для уточнения деталей.</p>
                     <p>Обычно мы отвечаем в течение 1 рабочего дня.</p>
                 </div>
                 <div class="modal-footer justify-content-center">
