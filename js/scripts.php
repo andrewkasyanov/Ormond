@@ -359,3 +359,24 @@ function sendEmail() {
     });
 }
 </script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    // Обработчик для кликабельных строк
+    document.querySelectorAll('tr').forEach(row => {
+        // Проверяем, что в строке есть ссылка с data-search
+        const link = row.querySelector('a[data-search]');
+        if (link) {
+            row.addEventListener('click', function(e) {
+                // Проверяем, что клик не по кнопке
+                if (!e.target.closest('button')) {
+                    const article = link.getAttribute('data-search');
+                    searchPart(article);
+                }
+            });
+
+            // Изменяем курсор при наведении на строку
+            row.style.cursor = 'pointer';
+        }
+    });
+});
+</script>

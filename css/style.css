@@ -327,6 +327,16 @@ body {
         padding: 4px;
     }
 }
+.table-responsive a {
+    color: #44494e !important;
+    text-decoration: none !important;
+}
+
+.table-responsive a:hover {
+    color: #ff4040 !important;
+    text-decoration: underline !important;
+}
+
 
 .links a {
     color: lightgrey !important;
