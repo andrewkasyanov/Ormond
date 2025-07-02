@@ -9,6 +9,7 @@ require_once __DIR__ . '/src/helpers.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Колеса Ormond для спецтехники мировых производителей: Hyster, Kalmar, Sany, XCMG, Fantuzzi, Jungheinrich, BT, Still, Linde. Прямые поставки с завода-изготовителя без посредников">
+    <title>А-Сервис - Ваш проводник в мире полиуретановых и цельнолитых колес для ричстакеров и погрузчиков. Hyster, Kalmar, Sany, XCMG, ZPMC, Jungheinrich, Still, Linde, BT</title>
     <meta property="og:title" content="А-Сервис - Ваш проводник в мире полиуретановых и цельнолитых колес для ричстакеров и погрузчиков. Hyster, Kalmar, Sany, XCMG, ZPMC, Jungheinrich, Still, Linde, BT">
     <meta property="og:description" content="Колеса Ormond для спецтехники мировых производителей: Hyster, Kalmar, Sany, XCMG, Fantuzzi, Jungheinrich, BT, Still, Linde. Прямые поставки с завода-изготовителя без посредников">
     <meta property="og:image" content="https://ormond.ru/favicon.ico">
@@ -418,6 +419,54 @@ EPT, PT, PTE, EPT, ECL, PS, PSE, RT, PH, PL, SC
                 <h2 class="section-title">Цельнолитые колеса</h2>
                 <div class="row">
                     <div class="col-md-6">
+                        <div class="swiper-container" style="max-width: 100%; margin: 0 auto;">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="images/tyre-1.webp" alt="Колесо Ormond модель 1" class="img-fluid rounded">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/tyre-2.webp" alt="Колесо Ormond модель 2" class="img-fluid rounded">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/tyre-3.webp" alt="Колесо Ormond модель 3" class="img-fluid rounded">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/tyre-4.webp" alt="Колесо Ormond модель 4" class="img-fluid rounded">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/tyre-5.webp" alt="Колесо Ormond модель 5" class="img-fluid rounded">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/tyre-6.webp" alt="Колесо Ormond модель 6" class="img-fluid rounded">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/tyre-7.webp" alt="Колесо Ormond модель 7" class="img-fluid rounded">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/tyre-8.webp" alt="Колесо Ormond модель 8" class="img-fluid rounded">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/tyre-9.webp" alt="Колесо Ormond модель 9" class="img-fluid rounded">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/tyre-10.webp" alt="Колесо Ormond модель 10" class="img-fluid rounded">
+                                </div>
+                            </div>
+                            <!-- Навигационные элементы -->
+                            <div class="swiper-custom-nav">
+                                <div class="custom-swiper-button custom-prev">
+                                    <i class="fas fa-chevron-left"></i>
+                                </div>
+                                <div class="custom-swiper-button custom-next">
+                                    <i class="fas fa-chevron-right"></i>
+                                </div>
+                            </div>
+                            <!-- Пагинация -->
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
                         <div class="card h-100">
                             <div class="card-body">
                                 <h5 class="card-title">Преимущества цельнолитых колес</h5>
@@ -430,10 +479,6 @@ EPT, PT, PTE, EPT, ECL, PS, PSE, RT, PH, PL, SC
                                     <li>Срок службы до 10 лет</li>
                                 </ul>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card h-100">
                             <div class="card-body">
                                 <h5 class="card-title">Области применения</h5>
                                 <p>Цельнолитые колеса Ormond идеально подходят для:</p>
@@ -446,7 +491,34 @@ EPT, PT, PTE, EPT, ECL, PS, PSE, RT, PH, PL, SC
                                 </ul>
                             </div>
                         </div>
+                    </div> 
+
+                    <div class="manufacturer-section" id="">
+                    <h3>Цельнолитые и бандажные колеса</h3>
+                    <div>
+                        <p>
+                            <strong>Колеса Ormond широко применяются в подъемно-погрузочной и дорожно-строительной технике, аэропортового оборудования и портовых перегружателей</strong>
+                        </p>
                     </div>
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Типоразмер</th>
+                                    <th>Размер диска</th>
+                                    <th>Характеристики</th>
+                                    <th>Цена</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php 
+                                    echo getTyreTable();
+                                ?>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>                  
                 </div>
             </div>
         </section>
