@@ -24,7 +24,7 @@ require_once __DIR__ . '/src/helpers.php';
     <link rel="stylesheet" href="/css/style.css?v=<?php echo filemtime($_SERVER['DOCUMENT_ROOT'] . '/css/style.css'); ?>" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <script src="https://www.google.com/recaptcha/api.js?render=6LdQcW4rAAAAAIgzlEnFq_v6nTtU44mVIa2IfZ1n"></script>  
+    <script src="https://www.google.com/recaptcha/api.js?render=6LdQcW4rAAAAAIgzlEnFq_v6nTtU44mVIa2IfZ1n"></script>     
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -40,7 +40,8 @@ require_once __DIR__ . '/src/helpers.php';
        });
     </script>
     <noscript><div><img src="https://mc.yandex.ru/watch/103253679" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-    <!-- /Yandex.Metrika counter --> 
+    <!-- /Yandex.Metrika counter -->     
+</head>   
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-FVJVWRVKC1"></script>
     <script>
@@ -50,7 +51,6 @@ require_once __DIR__ . '/src/helpers.php';
 
       gtag('config', 'G-FVJVWRVKC1');
     </script>
-</head>
 <body>
     <!-- Шапка -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
